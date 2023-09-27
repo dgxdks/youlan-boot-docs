@@ -6,24 +6,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <meta name="description" content="Description">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+        <link rel="stylesheet" href="assets/css/vue.css">
+        <!--        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">-->
     </head>
     <body>
-        <nav>
-            <a href="#/">文档导航</a>
-            <a href="#/">常见问题</a>
-        </nav>
         <div id="app">加载中...</div>
         <script>
             window.$docsify = {
                 el: '#app',
-                loadSidebar: true,
-                name: '',
+                name: 'youlan-boot',
                 repo: 'https://github.com/dgxdks/youlan-boot',
-                subMaxLevel: 2
+                loadSidebar: true,
+                loadNavbar: true,
+                coverpage: true,
+                subMaxLevel: 3,
+                search: {
+                    maxAge: 86400000,
+                    path: 'auto',
+                    placeholder: '搜一搜',
+                    noData: '未匹配到内容',
+                    depth: 6
+                }
             }
         </script>
         <!-- Docsify v4 -->
-        <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+        <script src="assets/js/docsify@4.js"></script>
+        <script src="assets/js/search.mini.js"></script>
+        <!--        <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>-->
     </body>
 </html>

@@ -1,2 +1,1 @@
-# youlan-boot-docs
-幽兰后台管理系统文档
+[cinwell website](https://raw.githubusercontent.com/dgxdks/youlan-boot/master/README.md ':include width=100% height=400px')
