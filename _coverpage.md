@@ -28,4 +28,4 @@
 
 > **项目结构清晰 项目扩展灵活 公共模块独立 插件模块丰富 前端代码简洁**
 
-[开始使用 Get Started](/)
+[开始使用 Get Started](/docs/quickstart.md)
