@@ -1,8 +1,8 @@
 <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/banner.jpg" height="200px" width="100%" alt="">
 
-<h1 align="center" style="font-size: 34px; font-weight: bold; padding: 20px 0 20px 0">
+<h2 align="center" style="font-weight: bold;">
 基于SpringBoot的轻量级业务开发框架
-</h1>
+</h2>
 
 <p align="center">
     <a href="https://github.com/dgxdks/youlan-boot">
@@ -37,8 +37,6 @@
 
 - 使用和学习优先拉取主线分支master，代码保持GitHub和Gitee同步，**日常使用优先访问Gitee**
 - 感兴趣的小伙伴点个⭐️Star⭐️鼓励一下吧！
-
----
 
 ## 项目简介
 
