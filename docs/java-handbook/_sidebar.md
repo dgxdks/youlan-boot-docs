@@ -7,7 +7,7 @@
 
 * 后端功能
     * [代码生成](/docs/java-handbook/generator.md "代码生成")
-    * [数据分页](/docs/java-handbook/pagenation.md "数据分页")
+    * [数据分页](/docs/java-handbook/pagination.md "数据分页")
     * [数据加密](/docs/java-handbook/crypto.md "数据加密")
     * [数据权限](/docs/java-handbook/data-permission.md "数据权限")
     * [数据脱敏](/docs/java-handbook/sensitive.md "数据脱敏")

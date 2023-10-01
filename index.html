@@ -19,6 +19,7 @@
                 loadSidebar: true,
                 loadNavbar: true,
                 coverpage: true,
+                loadFooter: true,
                 subMaxLevel: 3,
                 search: {
                     maxAge: 86400000,
@@ -26,12 +27,35 @@
                     placeholder: '搜一搜',
                     noData: '未匹配到内容',
                     depth: 6
+                },
+                pagination: {
+                    previousText: '上一章节',
+                    nextText: '下一章节',
+                    crossChapter: true,
+                    crossChapterText: true
+                },
+                footer: {
+                    copy: '<span>Acme &copy; 2023</span>',
+                    auth: '赵喆',
+                    pre: '<span>对文档有疑问？欢迎您帮助我们<a href="">完善此文档</a>！</span>',
+                    style: 'text-align: right;',
+                    class: 'className',
                 }
             }
         </script>
         <!-- Docsify v4 -->
         <script src="assets/js/docsify@4.js"></script>
         <script src="assets/js/search.mini.js"></script>
+        <script src="assets/js/docsify-pagination.min.js"></script>
+        <script src="assets/js/docsify-footer.min.js"></script>
+        <script src="assets/js/docsify-footer-enh.min.js"></script>
+        <script src="assets/js/docsify-edit-on-github.js"></script>
         <!--        <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>-->
+        <script>
+            window.$docsify.plugins = [
+                EditOnGithubPlugin.create('https://github.com/dgxdks/youlan-boot-doc/blob/master', null, () => '在GitHub中编辑')
+            ]
+        </script>
     </body>
 </html>
+
