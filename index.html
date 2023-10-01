@@ -35,11 +35,25 @@
                     crossChapterText: true
                 },
                 footer: {
-                    copy: '<span>Acme &copy; 2023</span>',
-                    auth: '赵喆',
-                    pre: '<span>对文档有疑问？欢迎您帮助我们<a href="">完善此文档</a>！</span>',
-                    style: 'text-align: right;',
-                    class: 'className',
+                    copy: '<span>Copyright &copy; 2023</span>',
+                    auth: '赵喆 All Rights Reserved',
+                    pre: '',
+                    style: 'text-align: center;',
+                    class: null,
+                },
+                count:{
+                    countable: true,
+                    position: 'top',
+                    margin: '10px',
+                    float: 'left',
+                    fontsize:'0.9em',
+                    color:'rgb(90,90,90)',
+                    language:'chinese',
+                    localization: {
+                        words: "",
+                        minute: ""
+                    },
+                    isExpected: true
                 }
             }
         </script>
@@ -50,11 +64,15 @@
         <script src="assets/js/docsify-footer.min.js"></script>
         <script src="assets/js/docsify-footer-enh.min.js"></script>
         <script src="assets/js/docsify-edit-on-github.js"></script>
+        <script src="assets/js/countable.min.js"></script>
         <!--        <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>-->
         <script>
-            window.$docsify.plugins = [
-                EditOnGithubPlugin.create('https://github.com/dgxdks/youlan-boot-doc/blob/master/', null, () => '在GitHub中编辑')
-            ]
+            const editOnGithubPlugin =  EditOnGithubPlugin.create('https://github.com/dgxdks/youlan-boot-doc/blob/master/', null, () => '完善此文档')
+            if (window.$docsify.plugins) {
+                window.$docsify.plugins.push(editOnGithubPlugin)
+            } else {
+                window.$docsify.plugins = [editOnGithubPlugin]
+            }
         </script>
     </body>
 </html>
