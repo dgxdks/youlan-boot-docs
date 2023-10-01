@@ -1,0 +1,8 @@
+## 核心模块(youlan-common-core)
+## 验证码模块(youlan-common-captcha)
+## 加密模块(youlan-common-crypto)
+## 数据库模块(youlan-common-db)
+## Excel模块(youlan-common-excel)
+## Redis模块(youlan-common-redis)
+## 存储模块(youlan-common-storage)
+## 数据校验模块(youlan-common-validator)
