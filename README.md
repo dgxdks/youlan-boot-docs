@@ -1,8 +1,8 @@
 <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/banner.jpg" height="200px" width="100%" alt="">
 
-<div align="center" style="font-size: 34px; font-weight: bold;">
+<h1 align="center" style="font-size: 34px; font-weight: bold; padding: 20px 0 20px 0">
 基于SpringBoot的轻量级业务开发框架
-</div>
+</h1>
 
 <p align="center">
     <a href="https://github.com/dgxdks/youlan-boot">
