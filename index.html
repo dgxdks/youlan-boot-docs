@@ -41,14 +41,14 @@
                     style: 'text-align: center;',
                     class: null,
                 },
-                count:{
+                count: {
                     countable: true,
                     position: 'top',
                     margin: '10px',
                     float: 'left',
-                    fontsize:'0.9em',
-                    color:'rgb(90,90,90)',
-                    language:'chinese',
+                    fontsize: '0.9em',
+                    color: 'rgb(90,90,90)',
+                    language: 'chinese',
                     localization: {
                         words: "",
                         minute: ""
@@ -67,7 +67,7 @@
         <script src="assets/js/countable.min.js"></script>
         <!--        <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>-->
         <script>
-            const editOnGithubPlugin =  EditOnGithubPlugin.create('https://github.com/dgxdks/youlan-boot-doc/blob/master/', null, () => '完善此文档')
+            const editOnGithubPlugin = EditOnGithubPlugin.create('https://gitee.com/dgxdks/youlan-boot-doc/blob/master/', null, () => '完善此文档')
             if (window.$docsify.plugins) {
                 window.$docsify.plugins.push(editOnGithubPlugin)
             } else {

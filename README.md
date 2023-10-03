@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-    <a href="https://doc.youlan.online">项目文档 | </a>
+    <a href="https://dgxdks.gitee.io/youlan-boot-doc">项目文档 | </a>
     <a href="https://gitee.com/dgxdks/youlan-boot">Gitee地址 | </a>
     <a href="https://github.com/dgxdks/youlan-boot">GitHub地址</a>
 </p>
