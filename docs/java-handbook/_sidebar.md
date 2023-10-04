@@ -1,5 +1,7 @@
 * 后端开发
     * [开发规范](/docs/java-handbook/specification.md "后端开发规范")
+    * [新增模块](/docs/java-handbook/add-module.md "新增模块")
+    * [修改包名](/docs/java-handbook/modify-package.md "修改包名")
 
 * 后端模块
     * [公共模块(youlan-common)](/docs/java-handbook/common-modules.md "公共模块(youlan-common)")
