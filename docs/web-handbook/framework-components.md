@@ -1,7 +1,7 @@
 ## 按钮组件
 
 ### 新增按钮（[base-add-button](https://sadfasdf/sadfasdf/)）
-* 基础使用
+* 基础用法([项目示例]())
 ```vue
   <base-add-button v-has-perm="['system:config:add']" plain @click="handleAdd" />
 ```
@@ -67,33 +67,12 @@
 ```vue
 <base-switch v-model="scope.row.isDefault" @change="handleIsDefaultChange(scope.row)" />
 ```
-=======
 ### 新增按钮([base-add-button](https://sadfasdf/sadfasdf/))
 
 * 基础使用
 ```vue
 <base-add-button @click="handleClick"></base-add-button>
 ```
-
-### 删除按钮
-
-### 修改按钮
-
-### 搜索按钮
-
-### 重置按钮
-
-### 上传按钮
-
-### 下载按钮
-
-### 关闭按钮
-
-### 文本按钮
->>>>>>> ebe8b27112d4aa5092d43d87a3673f7beeb80e74
-
-### 菜单按钮
-
 ## 时间组件
 
 ### 日期选择([base-date-range-picker](https://))
@@ -112,7 +91,6 @@
 
 ### 基础图标
 
-<<<<<<< HEAD
 ### 复制内容图标([base-copy-icon](https://))
 * 基础用法
 ```vue
@@ -124,11 +102,9 @@
 ```vue
 <base-icon-select ref="iconSelect" v-model="editForm.menuIcon" />
 ```
-=======
 ### 复制按钮
 
 ### 下拉选择
->>>>>>> ebe8b27112d4aa5092d43d87a3673f7beeb80e74
 
 ## 数据字典
 ### 单选框
@@ -138,7 +114,6 @@
 
 ## 其他组件
 
-<<<<<<< HEAD
 ### 基础弹窗([base-dialog](https://))
 * 基础用法
 ```vue
