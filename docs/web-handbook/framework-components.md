@@ -112,7 +112,6 @@
 
 ### 基础图标
 
-<<<<<<< HEAD
 ### 复制内容图标([base-copy-icon](https://))
 * 基础用法
 ```vue
@@ -124,11 +123,6 @@
 ```vue
 <base-icon-select ref="iconSelect" v-model="editForm.menuIcon" />
 ```
-=======
-### 复制按钮
-
-### 下拉选择
->>>>>>> ebe8b27112d4aa5092d43d87a3673f7beeb80e74
 
 ## 数据字典
 ### 单选框
