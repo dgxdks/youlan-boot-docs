@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-<img src="assets/icons/logo.jpg" width="260px" height="260px">
+<img src="assets/img/logo-cute.jpg" width="260px" height="260px">
 
 <div style="font-weight: bold; font-size: 40px;">
 youlan-boot

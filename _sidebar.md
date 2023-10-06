@@ -9,8 +9,8 @@
 * 项目开发
     * [新增模块](docs/java-handbook/add-module.md "新增模块")
     * [修改包名](docs/java-handbook/modify-package.md "修改包名")
-    * [后端规范](docs/java-handbook/specification.md "后端规范")
-    * [前端规范](docs/web-handbook/specification.md "前端规范")
+    * [后端规范](docs/java-handbook/develop-specification.md "后端规范")
+    * [前端规范](docs/web-handbook/develop-specification.md "前端规范")
     * [开发手册](docs/home/project-develop.md "开发手册")
 
 * 项目部署

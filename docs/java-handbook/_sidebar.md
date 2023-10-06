@@ -1,5 +1,5 @@
 * 后端开发
-    * [开发规范](/docs/java-handbook/specification.md "后端开发规范")
+    * [开发规范](/docs/java-handbook/develop-specification.md "后端开发规范")
     * [新增模块](/docs/java-handbook/add-module.md "新增模块")
     * [修改包名](/docs/java-handbook/modify-package.md "修改包名")
 
