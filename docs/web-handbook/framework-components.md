@@ -123,7 +123,7 @@
 
 ### 示例图片
 
-<img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/web-handbook/button-demo.png" alt="">
+![button-demo.png](../../assets/img/web-handbook/button-demo.png)
 
 ## 时间组件
 
@@ -162,24 +162,28 @@
 ### 示例图片
 
 <table>
-    <tbody>
-        <tr>
-            <td>
-                <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/web-handbook/date-range-picker-demo.png">
-            </td>
-            <td>
-                <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/web-handbook/date-time-range-picker-demo.png">
-            </td>
-        </tr>        
-        <tr>
-            <td>
-                <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/web-handbook/date-picker-demo.png">
-            </td>
-            <td>
-                <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/web-handbook/date-time-picker-demo.png">
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+<tr>
+<td>
+
+![date-range-picker-demo.png](../../assets/img/web-handbook/date-range-picker-demo.png)
+</td>
+<td>
+
+![date-time-range-picker-demo.png](../../assets/img/web-handbook/date-time-range-picker-demo.png)
+</td>
+</tr>        
+<tr>
+<td>
+
+![date-picker-demo.png](../../assets/img/web-handbook/date-picker-demo.png)
+</td>
+<td>
+
+![date-time-picker-demo.png](../../assets/img/web-handbook/date-time-picker-demo.png)
+</td>
+</tr>
+</tbody>
 </table>
 
 ## Icon组件
@@ -222,16 +226,18 @@
 ### 示例图片
 
 <table>
-    <tbody>
-        <tr>
-            <td>
-                <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/web-handbook/copy-icon-demo.png">
-            </td>
-            <td>
-                <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/web-handbook/icon-select-demo.png">
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+<tr>
+<td>
+
+![copy-icon-demo.png](../../assets/img/web-handbook/copy-icon-demo.png)
+</td>
+<td>
+
+![icon-select-demo.png](../../assets/img/web-handbook/icon-select-demo.png)
+</td>
+</tr>
+</tbody>
 </table>
 
 ## 数据字典组件
@@ -269,17 +275,18 @@
 ### 示例图片
 
 <table>
-    <tbody>
-        <tr>
-            <td>
+<tbody>
+<tr>
+<td>
 
-![123](../../assets/img/web-handbook/date-picker-demo.png)
-            </td>
-            <td>
-                <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/web-handbook/dict-tag-demo.png">
-            </td>
-        </tr>
-    </tbody>
+![dict-select-radio-demo.png](../../assets/img/web-handbook/dict-select-radio-demo.png)
+</td>
+<td>
+
+![dict-tag-demo.png](../../assets/img/web-handbook/dict-tag-demo.png)
+</td>
+</tr>
+</tbody>
 </table>
 
 ## 其他组件
