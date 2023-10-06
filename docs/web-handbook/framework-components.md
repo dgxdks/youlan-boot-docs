@@ -123,7 +123,7 @@
 
 ### 示例图片
 
-<img src="/assets/img/web-handbook/button-demo.png" alt="">
+<img src="../../assets/img/web-handbook/button-demo.png" alt="">
 
 ## 时间组件
 
@@ -165,18 +165,18 @@
     <tbody>
         <tr>
             <td>
-                <img src="/assets/img/web-handbook/date-range-picker-demo.png">
+                <img src="../../assets/img/web-handbook/date-range-picker-demo.png">
             </td>
             <td>
-                <img src="/assets/img/web-handbook/date-time-range-picker-demo.png">
+                <img src="../../assets/img/web-handbook/date-time-range-picker-demo.png">
             </td>
         </tr>        
         <tr>
             <td>
-                <img src="/assets/img/web-handbook/date-picker-demo.png">
+                <img src="../../assets/img/web-handbook/date-picker-demo.png">
             </td>
             <td>
-                <img src="/assets/img/web-handbook/date-time-picker-demo.png">
+                <img src="../../assets/img/web-handbook/date-time-picker-demo.png">
             </td>
         </tr>
     </tbody>
@@ -272,10 +272,10 @@
     <tbody>
         <tr>
             <td>
-                <img src="/assets/img/web-handbook/dict-select-radio-demo.png">
+                <img src="../../assets/img/web-handbook/dict-select-radio-demo.png">
             </td>
             <td>
-                <img src="/assets/img/web-handbook/dict-tag-demo.png">
+                <img src="../../assets/img/web-handbook/dict-tag-demo.png">
             </td>
         </tr>
     </tbody>
