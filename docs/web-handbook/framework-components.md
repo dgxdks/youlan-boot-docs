@@ -278,7 +278,9 @@
 <tbody>
 <tr>
 <td>
-<img src="../../assets/img/web-handbook/dict-select-radio-demo.png">
+<img src="assets/img/web-handbook/dict-select-radio-demo.png">
+
+[//]: # (![dict-select-radio-demo.png]&#40;../../assets/img/web-handbook/dict-select-radio-demo.png&#41;)
 </td>
 <td>
 
