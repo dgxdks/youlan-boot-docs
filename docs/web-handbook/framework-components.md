@@ -278,8 +278,7 @@
 <tbody>
 <tr>
 <td>
-
-![dict-select-radio-demo.png](../../assets/img/web-handbook/dict-select-radio-demo.png)
+<img src="../../assets/img/web-handbook/dict-select-radio-demo.png">
 </td>
 <td>
 
