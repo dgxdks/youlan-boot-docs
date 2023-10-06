@@ -9,7 +9,7 @@
 <base-add-button v-has-perm="['system:config:add']" plain @click="handleAdd"/>
 ```
 
-### 删除按钮（[base-remove-button](https://sadfasdf/sadfasdf/)）
+### 删除按钮（[base-remove-button](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/components/BaseRemoveButton.vue)）
 
 * 基础用法
 
@@ -123,7 +123,7 @@
 
 ### 示例图片
 
-<img src="../../assets/img/web-handbook/button-demo.png" alt="">
+<img src="img/button-demo.png" alt="">
 
 ## 时间组件
 
@@ -165,18 +165,18 @@
     <tbody>
         <tr>
             <td>
-                <img src="../../assets/img/web-handbook/date-range-picker-demo.png">
+                <img src="img/date-range-picker-demo.png">
             </td>
             <td>
-                <img src="../../assets/img/web-handbook/date-time-range-picker-demo.png">
+                <img src="img/date-time-range-picker-demo.png">
             </td>
         </tr>        
         <tr>
             <td>
-                <img src="../../assets/img/web-handbook/date-picker-demo.png">
+                <img src="img/date-picker-demo.png">
             </td>
             <td>
-                <img src="../../assets/img/web-handbook/date-time-picker-demo.png">
+                <img src="img/date-time-picker-demo.png">
             </td>
         </tr>
     </tbody>
@@ -225,10 +225,10 @@
     <tbody>
         <tr>
             <td>
-                <img src="/assets/img/web-handbook/copy-icon-demo.png">
+                <img src="/docs/web-handbook/img/copy-icon-demo.png">
             </td>
             <td>
-                <img src="/assets/img/web-handbook/icon-select-demo.png">
+                <img src="/docs/web-handbook/img/icon-select-demo.png">
             </td>
         </tr>
     </tbody>
@@ -272,10 +272,10 @@
     <tbody>
         <tr>
             <td>
-                <img src="../../assets/img/web-handbook/dict-select-radio-demo.png">
+                <img src="img/dict-select-radio-demo.png">
             </td>
             <td>
-                <img src="../../assets/img/web-handbook/dict-tag-demo.png">
+                <img src="img/dict-tag-demo.png">
             </td>
         </tr>
     </tbody>
