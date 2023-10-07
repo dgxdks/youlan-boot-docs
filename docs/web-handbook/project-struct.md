@@ -24,7 +24,7 @@ youlan-web
 ## 关于framework目录
 
 > [framework](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-web/src/framework) 目录是具体业务开发的核心，为了能更好的与前端整体框架进行解耦，故将业务开发相关的核心代码集中化管理，
-> 这个目录汇聚了业务开发相关的组件、指令、图标、混入、工具。前端项目的开发会与此目录下的内容紧密配合。这个目录下的大部分内容，从当前项目中单独剥离出去放在陌生项目里，稍作修改同样是可以使用的，详情可见[开发框架](/docs/web-handbook/framework-methods.md)。
+> 这个目录汇聚了业务开发相关的组件、指令、图标、混入、工具。前端项目的开发会与此目录下的内容紧密配合。这个目录下的大部分内容，从当前项目中单独剥离出去放在陌生项目里，稍作修改同样是可以使用的，详情可见[开发框架](/docs/web-handbook/framework-objects.md)。
 
 ## 关于components目录
 
