@@ -4,7 +4,7 @@
     * [项目配置](/docs/web-handbook/project-config.md "前端项目配置")
 
 * 开发框架
-    * [内置对象](/docs/web-handbook/framework-objects.md "内置对象")
+    * [全局挂载](/docs/web-handbook/framework-objects.md "全局挂载")
     * [公共组件](/docs/web-handbook/framework-components.md "公共组件")
     * [自定义Icon](/docs/web-handbook/framework-icons.md "公共Icon")
     * [代码混入](/docs/web-handbook/framework-mixins.md "代码混入")

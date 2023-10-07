@@ -32,7 +32,7 @@
 
 ## 文件上传(upload.js)
 
-> **提示：** 公共组件中[文件上传](/docs/web-handbook/framework-components?id=上传组件)组件底层上传逻辑全部引用此混入，
+> **提示：** 公共组件中[文件上传](/docs/web-handbook/framework-components.md?id=上传组件)组件底层上传逻辑全部引用此混入，
 > 如果公共组件无法满足实际需求，可依赖此混入快速实现前后端文件上传逻辑。
 
 * **全局混入：** 否

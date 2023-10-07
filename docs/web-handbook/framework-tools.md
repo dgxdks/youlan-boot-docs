@@ -16,7 +16,7 @@
 
 ## 数据字典工具([dict.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/dict.js))
 
-## 上传工具([dict.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/upload.js))
+## 上传工具([upload.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/upload.js))
 
 ## 对象工具([object.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/object.js))
 
@@ -32,6 +32,8 @@
 
 ## 环境参数工具([env.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/env.js))
 
-## 文本高亮工具([highlight.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/highlight.js))
+## Json工具([json.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/json.js))
+
+## 代码高亮工具([highlight.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/highlight.js))
 
 ## 全量工具包([index.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/tools/index.js))

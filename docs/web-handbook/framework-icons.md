@@ -85,5 +85,5 @@ export default icons
 
 ## 如何使用Icon
 
-> **提示：** 自定义Icon的具体使用请查看[Icon组件](/docs/web-handbook/framework-components?id=icon组件)章节
+> **提示：** 自定义Icon的具体使用请查看[Icon组件](/docs/web-handbook/framework-components.md?id=icon组件)章节
 

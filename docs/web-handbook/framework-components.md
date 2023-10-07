@@ -129,7 +129,7 @@
 
 ### 文件上传([file-upload](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/components/FileUpload.vue))
 
-> **提示：** 虽然功能不同，但是底层上传逻辑基本是一致的，所以在实现这几个组件的时候使用了代码混入，使用细节请阅读[文件上传(upload.js)](/docs/web-handbook/framework-mixins?id=文件上传uploadjs)混入
+> **提示：** 虽然功能不同，但是底层上传逻辑基本是一致的，所以在实现这几个组件的时候使用了代码混入，使用细节请阅读[文件上传(upload.js)](/docs/web-handbook/framework-mixins.md?id=文件上传uploadjs)混入
 
 * 普通上传([file-upload](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/components/FileUpload.vue))
 
