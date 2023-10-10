@@ -18,4 +18,4 @@
     * [后端部署](docs/home/project-deploy-java.md "后端部署")
     * [前端部署](docs/home/project-deploy-web.md "前端部署")
     * [全量部署](docs/home/project-deploy-web.md "前端部署")
-    
+    * [常见问题](docs/home/project-deploy-question.md "常见问题")

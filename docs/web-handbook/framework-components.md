@@ -123,7 +123,7 @@
 
 ### 示例图片
 
-<img src="assets/img/web-handbook/button-demo.png" alt="">
+<img src="assets/img/web-handbook/button.png" alt="">
 
 ## 上传组件
 
@@ -206,13 +206,13 @@
     <tbody>
         <tr>
             <td>
-                <img src="assets/img/web-handbook/file-upload-demo.png" alt="">
+                <img src="assets/img/web-handbook/file-upload.png" alt="">
             </td>
             <td>
-                <img src="assets/img/web-handbook/file-upload-drag-demo.png" alt="">
+                <img src="assets/img/web-handbook/file-upload-drag.png" alt="">
             </td>
             <td>
-                <img src="assets/img/web-handbook/image-upload-demo.png" alt="">
+                <img src="assets/img/web-handbook/image-upload.png" alt="">
             </td>
         </tr>        
     </tbody>
@@ -260,18 +260,18 @@
     <tbody>
         <tr>
             <td>
-                <img src="assets/img/web-handbook/date-range-picker-demo.png" alt="">
+                <img src="assets/img/web-handbook/date-range-picker.png" alt="">
             </td>
             <td>
-                <img src="assets/img/web-handbook/date-time-range-picker-demo.png" alt="">
+                <img src="assets/img/web-handbook/date-time-range-picker.png" alt="">
             </td>
         </tr>        
         <tr>
             <td>
-                <img src="assets/img/web-handbook/date-picker-demo.png" alt="">
+                <img src="assets/img/web-handbook/date-picker.png" alt="">
             </td>
             <td>
-                <img src="assets/img/web-handbook/date-time-picker-demo.png" alt="">
+                <img src="assets/img/web-handbook/date-time-picker.png" alt="">
             </td>
         </tr>
     </tbody>
@@ -320,10 +320,10 @@
     <tbody>
         <tr>
             <td>
-                <img src="assets/img/web-handbook/copy-icon-demo.png" alt="">
+                <img src="assets/img/web-handbook/copy-icon.png" alt="">
             </td>
             <td>
-                <img src="assets/img/web-handbook/icon-select-demo.png" alt="">
+                <img src="assets/img/web-handbook/icon-select.png" alt="">
             </td>
         </tr>
     </tbody>
@@ -367,10 +367,10 @@
     <tbody>
         <tr>
             <td>
-                <img src="assets/img/web-handbook/dict-select-radio-demo.png" alt="">
+                <img src="assets/img/web-handbook/dict-select-radio.png" alt="">
             </td>
             <td>
-                <img src="assets/img/web-handbook/dict-tag-demo.png" alt="">
+                <img src="assets/img/web-handbook/dict-tag.png" alt="">
             </td>
         </tr>
     </tbody>
@@ -521,21 +521,21 @@
     <tbody>
         <tr>
             <td>
-                <img src="assets/img/web-handbook/base-dialog-demo.png" alt="">
+                <img src="assets/img/web-handbook/base-dialog.png" alt="">
             </td>
             <td>
-                <img src="assets/img/web-handbook/base-draw-demo.png" alt="">
+                <img src="assets/img/web-handbook/base-draw.png" alt="">
             </td>            
             <td>
-                <img src="assets/img/web-handbook/base-row-split3-demo.png" alt="">
+                <img src="assets/img/web-handbook/base-row-split3.png" alt="">
             </td>
         </tr>
         <tr>
             <td>
-                <img src="assets/img/web-handbook/image-preview-demo.png" alt="">
+                <img src="assets/img/web-handbook/image-preview.png" alt="">
             </td>            
             <td>
-                <img src="assets/img/web-handbook/table-toolbar-demo.png" alt="">
+                <img src="assets/img/web-handbook/table-toolbar.png" alt="">
             </td>
         </tr>
     </tbody>
