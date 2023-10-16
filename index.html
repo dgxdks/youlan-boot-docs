@@ -14,13 +14,21 @@
         <script>
             window.$docsify = {
                 el: '#app',
-                name: '',
+                // 侧边栏显示的名称
+                name: 'youlan-boot',
+                // GitHub仓库地址
                 repo: 'https://github.com/dgxdks/youlan-boot',
+                // 是否加载侧边栏
                 loadSidebar: true,
+                // 是否加载顶部导航
                 loadNavbar: true,
+                // 是否显示封面
                 coverpage: true,
+                // 是否加载也脚
                 loadFooter: true,
-                subMaxLevel: 3,
+                // 目录最大展开层级
+                subMaxLevel: 4,
+                // 搜索配置
                 search: {
                     maxAge: 86400000,
                     path: 'auto',
@@ -28,12 +36,14 @@
                     noData: '未匹配到内容',
                     depth: 6
                 },
+                // 分页配置
                 pagination: {
                     previousText: '上一章节',
                     nextText: '下一章节',
                     crossChapter: true,
                     crossChapterText: true
                 },
+                // 页脚配置
                 footer: {
                     copy: '<span>Copyright &copy; 2023</span>',
                     auth: '赵喆 All Rights Reserved',
@@ -41,6 +51,7 @@
                     style: 'text-align: center;',
                     class: null,
                 },
+                // 文字统计配置
                 count: {
                     countable: true,
                     position: 'top',
@@ -54,6 +65,14 @@
                         minute: ""
                     },
                     isExpected: true
+                },
+                // 返回顶部配置
+                scrollToTop: {
+                    auto: true,
+                    text: 'Top',
+                    right: 15,
+                    bottom: 15,
+                    offset: 500
                 }
             }
         </script>
@@ -67,6 +86,7 @@
         <script src="assets/js/docsify-copy-code.min.js"></script>
         <script src="assets/js/zoom-image.min.js"></script>
         <script src="assets/js/prism-javascript.min.js"></script>
+        <script src="assets/js/docsify-scroll-to-top.min.js"></script>
         <!--        <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>-->
         <script>
             const editOnGithubPlugin = EditOnGithubPlugin.create('https://gitee.com/dgxdks/youlan-boot-doc/blob/master/', null, () => '完善此文档')

@@ -1,4 +1,6 @@
-<img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/banner.jpg" height="200px" width="100%" alt="">
+<div style="text-align: center; width: 100%;">
+  <img src="https://dgxdks.gitee.io/youlan-boot-doc/assets/img/banner.jpg"  width="80%" alt="">
+</div>
 
 <h2 align="center" style="font-weight: bold;">
 基于SpringBoot的轻量级业务开发框架
@@ -18,10 +20,7 @@
         <img src="https://img.shields.io/badge/Spring_Boot-2.7-blue.svg" alt="">
     </a>
     <a href="https://gitee.com/dgxdks/youlan-boot">
-        <img src="https://img.shields.io/badge/JDK-8-green.svg" alt="">
-    </a>
-    <a>
-        <img src="https://img.shields.io/badge/OpenJDK-11-green.svg" alt="">
+        <img src="https://img.shields.io/badge/OpenJDK-8--17-green.svg" alt="">
     </a>
 </p>
 

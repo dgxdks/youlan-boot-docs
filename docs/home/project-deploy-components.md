@@ -8,7 +8,7 @@
 
 ### 上传文件
 
-* **文件位置：** [docker/components]()
+* **文件位置：** [docker/components](https://gitee.com/dgxdks/youlan-boot/tree/master/docker/components)
 
 <img src="assets/img/home/docker-deploy-cmpt-file.png">
 
