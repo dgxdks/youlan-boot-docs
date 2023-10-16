@@ -432,13 +432,13 @@ sh app.sh stop
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-dockerfile-config.png" alt="">        
+            <img src="assets/img/home/open-dockerfile-config.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/modify-dockerfile-config.png" alt="">
+            <img src="assets/img/home/modify-dockerfile-config.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-dockerfile-config.png" alt="">
+            <img src="assets/img/home/desc-dockerfile-config.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -448,13 +448,13 @@ sh app.sh stop
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-docker-connect.png" alt="">        
+            <img src="assets/img/home/open-docker-connect.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/modify-docker-connect.png" alt="">
+            <img src="assets/img/home/modify-docker-connect.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-docker-connect.png" alt="">
+            <img src="assets/img/home/desc-docker-connect.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -464,13 +464,13 @@ sh app.sh stop
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-docker-service.png" alt="">        
+            <img src="assets/img/home/open-docker-service.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/add-docker-service.png" alt="">
+            <img src="assets/img/home/add-docker-service.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-docker-service.png" alt="">
+            <img src="assets/img/home/desc-docker-service.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -480,17 +480,17 @@ sh app.sh stop
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/run-docker-build.png" alt="">        
+            <img src="assets/img/home/run-docker-build.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/finish-docker-build.png" alt="">
+            <img src="assets/img/home/finish-docker-build.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
 
 ##### 4.查看Docker镜像
 
-<img src="assets/img/home/desc-docker-image.png" alt="">
+<img src="assets/img/home/desc-docker-image.png" alt="" loading="lazy">
 
 #### 使用Maven插件构建
 
@@ -510,15 +510,15 @@ echo $DOCKER_HOST
 
 ```
 
-<img src="assets/img/home/set-docker-host.png" alt="">
+<img src="assets/img/home/set-docker-host.png" alt="" loading="lazy">
 
 ##### 2.修改Maven配置
 
-<img src="assets/img/home/modify-docker-plugin-config.png" alt="">
+<img src="assets/img/home/modify-docker-plugin-config.png" alt="" loading="lazy">
 
 ##### 3.执行Docker构建
 
-<img src="assets/img/home/run-docker-plugin-build.png" alt="">
+<img src="assets/img/home/run-docker-plugin-build.png" alt="" loading="lazy">
 
 ### 如何部署
 
@@ -530,7 +530,7 @@ echo $DOCKER_HOST
 
 * **文件位置：** [docker/docker-compose.yml](https://gitee.com/dgxdks/youlan-boot/tree/master/docker)
 
-<img src="assets/img/home/docker-deploy-java-file.png">
+<img src="assets/img/home/docker-deploy-java-file.png" loading="lazy">
 
 * **上传文件：**
 
@@ -556,7 +556,7 @@ docker-compose up -d youlan-admin
 
 ```
 
-<img src="assets/img/home/docker-deploy-java.png">
+<img src="assets/img/home/docker-deploy-java.png" loading="lazy">
 
 
 **通过Docker命令部署**
@@ -575,4 +575,4 @@ docker run -it -d --name youlan-admin -p 4085:4085 -v /opt/youlan-boot/youlan-ad
 
 ```
 
-<img src="assets/img/home/docker-deploy-java-cmd.png">
+<img src="assets/img/home/docker-deploy-java-cmd.png" loading="lazy">
