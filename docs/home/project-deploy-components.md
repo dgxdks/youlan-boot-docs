@@ -4,7 +4,17 @@
 > 此方式虽然能实现快速一键部署，但是项目自带的`docker-compose.yml`文件中组件的部署配置都是单机版的，分布式集群模式需要开发者自行搭建。
 
 ### 创建目录
-![create-home](project-deploy-create-home.md ":include")
+
+> **提示：** 示例中默认项目部署根目录为`/opt/youlan-boot/`，实际部署中需要开发者根据实际情况自行决定部署根目录
+
+```shell
+# 进入/opt目录
+cd /opt
+# 创建部署根目录
+mkdir /opt/youlan-boot
+# 进入部署根目录
+cd /opt/youlan-boot
+```
 
 ### 上传文件
 
