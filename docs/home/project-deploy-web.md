@@ -1,4 +1,4 @@
-## 通过Nginx部署
+## **通过Nginx部署**
 
 ### 部署说明
 
@@ -111,37 +111,149 @@ scp -r * root@部署服务器IP:/web/html
 
 **上传Nginx文件(可选)**
 
-> **提示：** 以`youlan-web`为例，以下示例只要是通过`scp`命令将`Nginx`配置文件上传至部署服务器的`Nginx`默认配置目录下。
+> **提示：** 以`youlan-web`为例，`Nginx`文件放置在`youlan-web/nginx`目录下，以下示例只要是通过`scp`命令将`Nginx`配置文件上传至部署服务器的`Nginx`默认配置目录下。
 
 ```shell
 scp -r * root@部署服务器IP:/etc/nginx
 ```
 
+## **通过Docker部署(推荐)**
+
+### 如何构建
+
+!> 以`youlan-web`为例，镜像构建时默认使用了`youlan-web/nginx`目录下的配置做为镜像中内置`Nginx`的配置，开发者可根据实际情况对`Dockerfile`进行修改。
+
+#### 使用WebStorm构建
+
+##### 1.修改运行配置
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/img/home/open-dockerfile-config-web.png" alt="" loading="lazy">        
+        </td>
+        <td>
+            <img src="assets/img/home/modify-dockerfile-config-web.png" alt="" loading="lazy">
+        </td>        
+        <td>
+            <img src="assets/img/home/desc-dockerfile-config-web.png" alt="" loading="lazy">
+        </td>
+    </tr>
+</table>
+
+##### 2.添加Docker连接
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/img/home/open-docker-connect-web.png" alt="" loading="lazy">        
+        </td>
+        <td>
+            <img src="assets/img/home/modify-docker-connect-web.png" alt="" loading="lazy">
+        </td>        
+        <td>
+            <img src="assets/img/home/desc-docker-connect-web.png" alt="" loading="lazy">
+        </td>
+    </tr>
+</table>
+
+##### 3.添加Docker服务
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/img/home/open-docker-service-web.png" alt="" loading="lazy">        
+        </td>
+        <td>
+            <img src="assets/img/home/add-docker-service-web.png" alt="" loading="lazy">
+        </td>        
+        <td>
+            <img src="assets/img/home/desc-docker-service-web.png" alt="" loading="lazy">
+        </td>
+    </tr>
+</table>
+
+##### 4.执行Docker构建
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/img/home/run-docker-build-web.png" alt="" loading="lazy">        
+        </td>
+        <td>
+            <img src="assets/img/home/finish-docker-build-web.png" alt="" loading="lazy">
+        </td>
+    </tr>
+</table>
+
+##### 4.查看Docker镜像
+
+<img src="assets/img/home/desc-docker-image-web.png" alt="" loading="lazy">
+
+### 如何部署
+
+#### 创建目录
+
+> **提示：** 示例中默认项目部署根目录为`/opt/youlan-boot/`，实际部署中需要开发者根据实际情况自行决定部署根目录
+
+```shell
+# 进入/opt目录
+cd /opt
+# 创建部署根目录
+mkdir /opt/youlan-boot
+# 进入部署根目录
+cd /opt/youlan-boot
+```
+
+#### 上传文件
+
+* **文件位置：** [docker/docker-compose.yml](https://gitee.com/dgxdks/youlan-boot/tree/master/docker)
+
+<img src="assets/img/home/docker-deploy-java-file.png" loading="lazy">
+
+* **上传文件：**
+
+> **提示：** 由于文件传输方式以及文件传输工具各式各样，开发者需根据自己实际情况决定如何上传，这里只展示使用的`scp`命令将部署文件上传至部署服务器对应部署根目录。
+
+```shell
+# 注意是在docker目录下执行此命令
+scp docker-compose.yml root@部署服务器IP:/opt/youlan-boot
+
+```
+
 #### 部署服务
 
-**通过java -jar部署**
+##### 通过DockerCompose部署
+
+!> **为了简化文档示例描述的复杂度，内置的`docker-compose.yml`文件包含了所有可能需要部署的前后端服务，所以此处只演示上线`docker-compose.yml`文件中配置的部分服务。实际使用时如需前后端分离部署可自行拆分此文件。**
 
 ```shell
 # 进入部署目录
-cd /opt/youlan-boot/youlan-admin
-# java -jar启动服务
-java -jar --spring.profiles.active=prod youlan-admin.jar
+cd /opt/youlan-boot
+# docker-compose指定部分服务上线
+docker-compose up -d youlan-web
 
 ```
 
-**通过Shell脚本部署**
-> **提示：** 如需通过Shell脚本部署，请阅读上翻**上传Shell脚本**
+<img src="assets/img/home/docker-deploy-java-web.png" loading="lazy">
+
+
+#####  通过Docker命令部署
 
 ```shell
-# 进入部署目录
-cd /opt/youlan-boot/youlan-admin
-# 给予脚本可执行权限
-chmod +x app.sh
-# 启动服务
-sh app.sh start
-# 停止服务
-sh app.sh stop
+# 进入项目根目录
+cd /opt/youlan-boot
+# 创建部署根目录
+mkdir youlan-web
+# 进入部署根目录
+cd /opt/youaln-boot/youlan-web
+# 创建logs目录
+mkdir logs
+# 使用docker命令部署（默认后端反向代理地址youlan-admin）
+docker run -it -d --name youlan-web -p 80:80 -p 443:443 -v /opt/youlan-boot/youlan-web/logs/:/var/log/nginx youlan-web:latest
+# 使用docker命令部署（指定后端反向代理地址youlan-admin对应的ip地址）
+docker run -it -d --name youlan-web --add-host=youlan-admin:后端服务地址 -p 80:80 -p 443:443 -v /opt/youlan-boot/youlan-web/logs/:/var/log/nginx youlan-web:latest
 
 ```
 
-## 通过Docker部署
+<img src="assets/img/home/docker-deploy-web-cmd.png" loading="lazy">

@@ -25,8 +25,8 @@
 </p>
 
 <p align="center">
-    <a href="https://dgxdks.gitee.io/youlan-boot-doc">项目文档 | </a>
-    <a href="https://gitee.com/dgxdks/youlan-boot">Gitee地址 | </a>
+    <a href="https://dgxdks.gitee.io/youlan-boot-doc">项目文档</a> |
+    <a href="https://gitee.com/dgxdks/youlan-boot">Gitee地址</a> |
     <a href="https://github.com/dgxdks/youlan-boot">GitHub地址</a>
 </p>
 
@@ -34,7 +34,7 @@
 > 日常开发中，为了避免重复造轮子，有时候会选择一些开源后台权限管理系统作为基础框架进行二开，例如[RuoYi](https://gitee.com/y_project/RuoYi)、[RuoYi-Vue-Plus](https://gitee.com/dromara/RuoYi-Vue-Plus)
 > 等等，本人有幸也用过RuoYi系的框架接过一些中小型外包项目：小程序类、H5类、ERP类、接口对接类等等。由于这些框架本身不太包含常用的业务模块，比如要二开一个小程序项目，跟小程序相关的代码是需要自己写的，这种活干多了促使我又创建了基于不同业务场景的项目模版方便团队复用。做技术也有些年头了，现在想把自己关于这块的经验归纳至一处当做自己的“技术笔记”，如果在这个过程中还能帮助到别人更是吾之幸事！
 
-- 使用和学习优先拉取主线分支master，代码保持GitHub和Gitee同步，**日常使用优先访问Gitee**
+- 使用和学习优先拉取主线分支master，代码保持GitHub和Gitee同步，**日常使用优先访问Gitee**！
 - 感兴趣的小伙伴点个⭐️Star⭐️鼓励一下吧！
 
 ## 项目简介
@@ -46,14 +46,14 @@
 ### 项目架构灵活
 
 秉持按需引用原则，拒绝集中化管理公共代码、SpringBoot配置、SpringBoot切面等，避免“引用就得引所有排除得排一堆”的尴尬，
-留给开发人员更大的自由度
+留给开发人员更大的自由度。
 
 > 为了能更好的说明差异，以RuoYi-Vue-Plus4.x项目里的 [framework](https://gitee.com/dromara/RuoYi-Vue-Plus/tree/4.X/ruoyi-framework/src/main/java/com/ruoyi/framework)
 > 模块为例，这里面包含了很多配置了@Configuration的类以及被公共引用的代码和注解，现在我需要二开一个小程序项目，创建了一个独立的app模块，这个模块需要独立向移动端提供接口服务，这时候可能就会遇到这样一个问题：预先定义在framework里面的有些配置和注解我想用，但是我app模块又有自己独立的数据库配置、权限框架配置等，就会很容易和framework内部已有的配置产生冲突。
 
 ### 组织机构可扩展
 
-组织机构支持自定义扩展，平台中的用户体系不局限于部门这一种组织机构类型下
+组织机构支持自定义扩展，平台中的用户体系不局限于部门这一种组织机构类型下。
 
 > 组织机构是后台权限管理系统中的骨架，直接影响了用户的归属和一些数据的归属问题，部门就是一种组织机构，用户归属在不同的部门下，这是很常见的场景。
 > 但是如果用户只能归属在部门下会有一定局限性，例如电商和ERP项目中的商户、门店、供应商等，这些也都是组织机构，也会存在用户登录平台进行操作，并且还要对这些组织机构进行菜单和数据的权限控制，之前自己在使用RuoYi系做二开的时候会在部门表里硬加一个机构类型然后区分不同的机构类型好让扩展的机构都存在于一套权限管理体系一下，前后端代码也得再适配一下，在当前项目里对这一问题进行了优化，设计了一张组织机构表，部门表只是组织机构表的扩展
@@ -61,7 +61,7 @@
 ### 公共模块可插拔
 
 后端公共模块细粒度拆分为：内置公共模块 [common](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-common)
-、三方公共模块 [plugin](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-plugin)，每个模块都是独立的一套“工具集合”，拷贝出去放在陌生项目里照样能打
+、三方公共模块 [plugin](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-plugin)，每个模块都是独立的一套“工具集合”，拷贝出去放在陌生项目里照样能打。
 
 > 为了按需引用，在解放了“framework”模块后，这些公共的内容都散落回真实属于自己的位置。在本项目中，例如[@OperationLog](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-system/src/main/java/com/youlan/system/anno)
 > 这个注解，开发者引用system模块才有机会使用注解对应的功能，不引用自然也就不需要这个功能。再比如[@ExcelDictProperty](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-system/src/main/java/com/youlan/system/excel/anno)
@@ -71,7 +71,7 @@
 ### 前端开发高效
 
 前端轻度抽象封装 [framework](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-web/src/framework)
-模块，内置基础components、directive、icons、mixin、tools，同样是一套“工具集合”，放在陌生的ElementUI系项目里略加修改照样能打
+模块，内置基础components、directive、icons、mixin、tools，同样是一套“工具集合”，放在陌生的ElementUI系项目里略加修改照样能打。
 
 ### 前端代码简洁
 
@@ -81,7 +81,7 @@
 
 ### 代码生成贴心
 
-- 支持生成数据库Entity衍生的DTO、VO、PageDTO，在数据库表字段非常多时非常有用，避免都混在一个数据库Entity中让类面目全非
+- 支持生成数据库Entity衍生的DTO、VO、PageDTO，在数据库表字段非常多时非常有用，避免都混在一个数据库`Entity`中让`Class`面目全非。
 - 基于[db](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-common/youlan-common-db)
   模块中的[@Query](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-common/youlan-common-db/src/main/java/com/youlan/common/db/anno)
   注解，代码生成时自动追加此注解，针对简单查询可通过[DBHelper](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-common/youlan-common-db/src/main/java/com/youlan/common/db/helper/DBHelper.java)

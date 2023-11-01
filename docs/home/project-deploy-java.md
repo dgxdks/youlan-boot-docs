@@ -573,7 +573,7 @@ scp docker-compose.yml root@部署服务器IP:/opt/youlan-boot
 
 **通过DockerCompose部署**
 
-!> **为了简化文档示例描述的复杂度，内置的`docker-compose.yml`文件包含了所有可能需要部署的前后端服务，所以此处只演示上线`docker-compose.yml`文件中配置的部分后端服务。实际使用时如需前后端分离部署可自行拆分此文件。**
+!> **为了简化文档示例描述的复杂度，内置的`docker-compose.yml`文件包含了所有可能需要部署的前后端服务，所以此处只演示上线`docker-compose.yml`文件中配置的部分服务。实际使用时如需前后端分离部署可自行拆分此文件。**
 
 ```shell
 # 进入部署目录

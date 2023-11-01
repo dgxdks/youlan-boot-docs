@@ -1,4 +1,4 @@
-## Docker部署
+## **通过Docker部署**
 
 > **提示：** 以下内容默认开发者已正确安装Docker&DockerCompose，不熟悉的同学可阅读[Docker&DockerCompose安装及使用](/docs/home/project-deploy-question.md?id=Docker&DockerCompose安装及使用)。
 > 此方式虽然能实现快速一键部署，但是项目自带的`docker-compose.yml`文件中组件的部署配置都是单机版的，分布式集群模式需要开发者自行搭建。
