@@ -4,7 +4,7 @@
 
 <div style="font-weight: bold; font-size: 40px;">
 youlan-boot
-<span style="font-weight: normal; font-size: 14px;">v1.0.0</span>
+<span style="font-weight: normal; font-size: 14px;">v1.1.0</span>
 </div>
 <p align="center">
     <a href="https://github.com/dgxdks/youlan-boot">
