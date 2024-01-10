@@ -160,6 +160,14 @@ youlan-boot
 | ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/pay/refund-order.png)       | ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/pay/refund-order-detail.png) |
 | ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/pay/pay-notify.png)         | ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/pay/pay-notify-record.png)   |
 
+### 基础功能
+
+| 图例                                                                                      | 图例                                                                                           |
+|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/base/generator.png)   | ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/base/generator-import.png) |
+| ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/base/online-user.png) | ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/base/redis-monitor.png)    |
+| ![](https://dgxdks.gitee.io/youlan-boot-doc/assets/img/demo-image/base/swagger.png)     |                                                                                              |
+
 ## 特别鸣谢
 
 * 感谢优秀开源项目[RuoYi](https://gitee.com/y_project/RuoYi)、[RuoYi-Vue-Plus](https://gitee.com/dromara/RuoYi-Vue-Plus)、[ruoyi-vue-pro](https://gitee.com/zhijiantianya/ruoyi-vue-pro)
