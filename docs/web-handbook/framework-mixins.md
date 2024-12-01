@@ -5,9 +5,9 @@
 
 * **全局混入：** 否
 * **适用组件：** el-button
-* **使用示例：** [新增按钮(BaseAddButton)](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/components/BaseAddButton.vue)
+* **使用示例：** [新增按钮(BaseAddButton)](https://gitee.com/kensenzhao/youlan-boot/blob/master/youlan-web/src/framework/components/BaseAddButton.vue)
 
-## 增删改查([crud.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/mixin/crud.js))
+## 增删改查([crud.js](https://gitee.com/kensenzhao/youlan-boot/blob/master/youlan-web/src/framework/mixin/crud.js))
 
 > **提示：** 项目中比较核心的一个功能，预先定义了常规增删改查所需的属性和方法，具体的引用页面按需使用或者重写即可。
 > 相较于每个页面有关增删改查逻辑即使有太多相似代码也要从头撸到尾的情况，起到了很好的改善效果。
@@ -16,7 +16,7 @@
 * **适用组件：** 常规实现增删改查菜单的页面
 * **使用示例：** 项目中已有的增删改查相关页面都引入了此混入
 
-## 数据字典([dict.js](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/mixin/dict.js))
+## 数据字典([dict.js](https://gitee.com/kensenzhao/youlan-boot/blob/master/youlan-web/src/framework/mixin/dict.js))
 
 > **提示：** 项目中此混入已实现全局混入，使用者无需额外导入，在公共组件中的数据字典组件无法满足使用时，可通过此方式按照字典类型快速导入字典数据。
 
@@ -28,7 +28,7 @@
 
 * **全局混入：** 否
 * **适用组件：** el-tree
-* **使用示例：** [菜单树(MenuTree)](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/views/components/MenuTree.vue)、[机构树(OrgTree)](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/views/components/OrgTree.vue)
+* **使用示例：** [菜单树(MenuTree)](https://gitee.com/kensenzhao/youlan-boot/blob/master/youlan-web/src/views/components/MenuTree.vue)、[机构树(OrgTree)](https://gitee.com/kensenzhao/youlan-boot/blob/master/youlan-web/src/views/components/OrgTree.vue)
 
 ## 文件上传(upload.js)
 
@@ -37,4 +37,4 @@
 
 * **全局混入：** 否
 * **适用组件：** el-upload
-* **使用示例：** [文件上传](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/components/FileUpload.vue)、[图片上传](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-web/src/framework/components/ImageUpload.vue)
+* **使用示例：** [文件上传](https://gitee.com/kensenzhao/youlan-boot/blob/master/youlan-web/src/framework/components/FileUpload.vue)、[图片上传](https://gitee.com/kensenzhao/youlan-boot/blob/master/youlan-web/src/framework/components/ImageUpload.vue)

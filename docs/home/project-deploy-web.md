@@ -8,7 +8,7 @@
 
 #### 内部结构
 
-<img src="assets/img/home/deploy-nginx-struct.png" alt="" loading="lazy">
+<img src="/assets/img/home/deploy-nginx-struct.png" alt="" loading="lazy">
 
 ### 如何打包
 
@@ -16,7 +16,7 @@
 
 > **提示：** 默认不需要修改，这里只截图展示部分配置内容
 
-<img src="assets/img/home/deploy-nginx-vue-config.png" alt="" loading="lazy">
+<img src="/assets/img/home/deploy-nginx-vue-config.png" alt="" loading="lazy">
 
 #### .env配置
 
@@ -26,22 +26,22 @@
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/deploy-nginx-env-development.png" alt="" loading="lazy">            
+            <img src="/assets/img/home/deploy-nginx-env-development.png" alt="" loading="lazy">            
         </td>
         <td>
-            <img src="assets/img/home/deploy-nginx-env-production.png" alt="" loading="lazy">
+            <img src="/assets/img/home/deploy-nginx-env-production.png" alt="" loading="lazy">
         </td>
         <td>
-            <img src="assets/img/home/deploy-nginx-env-staging.png" alt="" loading="lazy">
+            <img src="/assets/img/home/deploy-nginx-env-staging.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
 
 #### nginx配置(可选)
 
-> **提示：** 前端项目在部署前需要对`Nginx`进行必要的配置，项目中内置了基础的[nginx](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-web/nginx)配置文件供同学们使用，可根据实际部署情况修改，并在`部署阶段`覆盖服务器上默认的`Nginx`配置。
+> **提示：** 前端项目在部署前需要对`Nginx`进行必要的配置，项目中内置了基础的[nginx](https://gitee.com/kensenzhao/youlan-boot/tree/master/youlan-web/nginx)配置文件供同学们使用，可根据实际部署情况修改，并在`部署阶段`覆盖服务器上默认的`Nginx`配置。
 
-<img src="assets/img/home/nginx-config.png" loading="lazy">
+<img src="/assets/img/home/nginx-config.png" loading="lazy">
 
 #### ssl配置(可选)
 
@@ -61,7 +61,7 @@ openssl x509 -req -days 36500 -in youlan.com.csr -signkey youlan.com.key -out yo
 
 ```
 
-<img src="assets/img/home/openssl-generator.png" loading="lazy">
+<img src="/assets/img/home/openssl-generator.png" loading="lazy">
 
 #### 使用npm命令打包
 
@@ -73,10 +73,10 @@ npm run build:prod
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/package-web.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/package-web.png" alt="" loading="lazy">        
         </td>    
         <td>
-            <img src="assets/img/home/package-web-desc.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/package-web-desc.png" alt="" loading="lazy">        
         </td>
     </tr>
 </table>
@@ -130,13 +130,13 @@ scp -r * root@部署服务器IP:/etc/nginx
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-dockerfile-config-web.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/open-dockerfile-config-web.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/modify-dockerfile-config-web.png" alt="" loading="lazy">
+            <img src="/assets/img/home/modify-dockerfile-config-web.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-dockerfile-config-web.png" alt="" loading="lazy">
+            <img src="/assets/img/home/desc-dockerfile-config-web.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -146,13 +146,13 @@ scp -r * root@部署服务器IP:/etc/nginx
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-docker-connect-web.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/open-docker-connect-web.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/modify-docker-connect-web.png" alt="" loading="lazy">
+            <img src="/assets/img/home/modify-docker-connect-web.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-docker-connect-web.png" alt="" loading="lazy">
+            <img src="/assets/img/home/desc-docker-connect-web.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -162,13 +162,13 @@ scp -r * root@部署服务器IP:/etc/nginx
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-docker-service-web.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/open-docker-service-web.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/add-docker-service-web.png" alt="" loading="lazy">
+            <img src="/assets/img/home/add-docker-service-web.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-docker-service-web.png" alt="" loading="lazy">
+            <img src="/assets/img/home/desc-docker-service-web.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -178,17 +178,17 @@ scp -r * root@部署服务器IP:/etc/nginx
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/run-docker-build-web.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/run-docker-build-web.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/finish-docker-build-web.png" alt="" loading="lazy">
+            <img src="/assets/img/home/finish-docker-build-web.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
 
 ##### 4.查看Docker镜像
 
-<img src="assets/img/home/desc-docker-image-web.png" alt="" loading="lazy">
+<img src="/assets/img/home/desc-docker-image-web.png" alt="" loading="lazy">
 
 ### 如何部署
 
@@ -207,9 +207,9 @@ cd /opt/youlan-boot
 
 #### 上传文件
 
-* **文件位置：** [docker/docker-compose.yml](https://gitee.com/dgxdks/youlan-boot/tree/master/docker)
+* **文件位置：** [docker/docker-compose.yml](https://gitee.com/kensenzhao/youlan-boot/tree/master/docker)
 
-<img src="assets/img/home/docker-deploy-java-file.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-java-file.png" loading="lazy">
 
 * **上传文件：**
 
@@ -235,7 +235,7 @@ docker-compose up -d youlan-web
 
 ```
 
-<img src="assets/img/home/docker-deploy-java-web.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-java-web.png" loading="lazy">
 
 
 #####  通过Docker命令部署
@@ -256,4 +256,4 @@ docker run -it -d --name youlan-web --add-host=youlan-admin:后端服务地址 -
 
 ```
 
-<img src="assets/img/home/docker-deploy-web-cmd.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-web-cmd.png" loading="lazy">

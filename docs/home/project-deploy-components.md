@@ -18,9 +18,9 @@ cd /opt/youlan-boot
 
 ### 上传文件
 
-* **文件位置：** [docker/components](https://gitee.com/dgxdks/youlan-boot/tree/master/docker/components)
+* **文件位置：** [docker/components](https://gitee.com/kensenzhao/youlan-boot/tree/master/docker/components)
 
-<img src="assets/img/home/docker-deploy-cmpt-file.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-cmpt-file.png" loading="lazy">
 
 * **上传文件：**
 
@@ -32,13 +32,13 @@ scp -r components/ root@部署服务器IP:/opt/youlan-boot
 
 ```
 
-<img src="assets/img/home/docker-deploy-cmpt-upload.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-cmpt-upload.png" loading="lazy">
 
 ### 部署组件
 
 > **提示：** 以下命令都是在`/opt/youlan-boot/components/`下执行的
 
-<img src="assets/img/home/docker-deploy-cmpt-execute.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-cmpt-execute.png" loading="lazy">
 
 #### 全量部署
 
@@ -54,7 +54,7 @@ docker-compose up -d
 docker-compose -f docker-compose.yml up -d
 ```
 
-<img src="assets/img/home/docker-deploy-cmpt-up.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-cmpt-up.png" loading="lazy">
 
 * 下线服务
 
@@ -62,7 +62,7 @@ docker-compose -f docker-compose.yml up -d
 docker-compose down
 ```
 
-<img src="assets/img/home/docker-deploy-cmpt-down.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-cmpt-down.png" loading="lazy">
 
 * 停止服务
 
@@ -82,7 +82,7 @@ docker-compose start
 docker-compose restart
 ```
 
-<img src="assets/img/home/docker-deploy-cmpt-start.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-cmpt-start.png" loading="lazy">
 
 #### 部分部署
 
@@ -126,4 +126,4 @@ docker-compose start redis
 docker-compose restart redis
 ```
 
-<img src="assets/img/home/docker-deploy-cmpt-sub-start.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-cmpt-sub-start.png" loading="lazy">

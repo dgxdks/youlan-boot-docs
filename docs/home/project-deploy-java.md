@@ -14,13 +14,13 @@
 
 #### 内部结构
 
-<img src="assets/img/home/deploy-jar-struct.png" alt="">
+<img src="/assets/img/home/deploy-jar-struct.png" alt="">
 
 ### 如何打包
 
 #### Maven配置
 
-> **提示：** 默认打包方式，开发者无需额外配置，详情可查看[youlan-admin/pom.xml](https://gitee.com/dgxdks/youlan-boot/blob/master/youlan-admin/pom.xml)。
+> **提示：** 默认打包方式，开发者无需额外配置，详情可查看[youlan-admin/pom.xml](https://gitee.com/kensenzhao/youlan-boot/blob/master/youlan-admin/pom.xml)。
 
 ```xml
 
@@ -48,7 +48,7 @@
 
 > **提示：** 开发调试时常用此方式，如果项目需要配置CI/CD时还是需要通过下述`mvn`命令进行打包
 
-<img src="assets/img/home/package-jar.png">
+<img src="/assets/img/home/package-jar.png">
 
 #### 使用mvn命令打包
 
@@ -98,7 +98,7 @@ scp youlan-admin.jar root@部署服务器IP:/opt/youlan-boot/youlan-admin
 
 **上传Shell脚本(可选)**
 
-> **提示：** 以`youlan-admin`为例，脚本存放在[youlan-admin/bin](https://gitee.com/dgxdks/youlan-boot/tree/master/youlan-admin/bin)目录下，以下示例只演示通过`scp`命令在`youlan-admin/bin`目录下上传Shell脚本至服务器部署目录。**当需要通过Shell脚本部署时此方式为必须**。
+> **提示：** 以`youlan-admin`为例，脚本存放在[youlan-admin/bin](https://gitee.com/kensenzhao/youlan-boot/tree/master/youlan-admin/bin)目录下，以下示例只演示通过`scp`命令在`youlan-admin/bin`目录下上传Shell脚本至服务器部署目录。**当需要通过Shell脚本部署时此方式为必须**。
 
 ```shell
 scp app.sh root@部署服务器IP:/opt/youlan-boot/youlan-admin
@@ -158,7 +158,7 @@ sh app.sh stop
 
 #### 内部结构
 
-<img src="assets/img/home/deploy-zip-struct.png" alt="">
+<img src="/assets/img/home/deploy-zip-struct.png" alt="">
 
 ### 如何打包
 
@@ -278,7 +278,7 @@ sh app.sh stop
 </build>
 ```
 
-<img src="assets/img/home/copy-zip-deploy.png" alt="">
+<img src="/assets/img/home/copy-zip-deploy.png" alt="">
 
 #### Assembly配置
 
@@ -331,13 +331,13 @@ sh app.sh stop
 
 ```
 
-<img src="assets/img/home/copy-assembly-deploy.png" alt="">
+<img src="/assets/img/home/copy-assembly-deploy.png" alt="">
 
 #### 使用IntelliJ IDEA打包
 
 > **提示：** 开发调试时常用此方式，如果项目需要配置CI/CD时还是需要通过下述`mvn`命令进行打包
 
-<img src="assets/img/home/package-zip.png">
+<img src="/assets/img/home/package-zip.png">
 
 #### 使用mvn命令打包
 
@@ -384,10 +384,10 @@ unzip youlan-admin-bin.zip
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/scp-zip.png" alt="">
+            <img src="/assets/img/home/scp-zip.png" alt="">
         </td>
         <td>
-            <img src="assets/img/home/unzip-zip.png" alt="">
+            <img src="/assets/img/home/unzip-zip.png" alt="">
         </td>
     </tr>
 </table>
@@ -450,13 +450,13 @@ sh app.sh stop
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-dockerfile-config.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/open-dockerfile-config.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/modify-dockerfile-config.png" alt="" loading="lazy">
+            <img src="/assets/img/home/modify-dockerfile-config.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-dockerfile-config.png" alt="" loading="lazy">
+            <img src="/assets/img/home/desc-dockerfile-config.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -466,13 +466,13 @@ sh app.sh stop
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-docker-connect.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/open-docker-connect.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/modify-docker-connect.png" alt="" loading="lazy">
+            <img src="/assets/img/home/modify-docker-connect.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-docker-connect.png" alt="" loading="lazy">
+            <img src="/assets/img/home/desc-docker-connect.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -482,13 +482,13 @@ sh app.sh stop
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/open-docker-service.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/open-docker-service.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/add-docker-service.png" alt="" loading="lazy">
+            <img src="/assets/img/home/add-docker-service.png" alt="" loading="lazy">
         </td>        
         <td>
-            <img src="assets/img/home/desc-docker-service.png" alt="" loading="lazy">
+            <img src="/assets/img/home/desc-docker-service.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
@@ -498,17 +498,17 @@ sh app.sh stop
 <table>
     <tr>
         <td>
-            <img src="assets/img/home/run-docker-build.png" alt="" loading="lazy">        
+            <img src="/assets/img/home/run-docker-build.png" alt="" loading="lazy">        
         </td>
         <td>
-            <img src="assets/img/home/finish-docker-build.png" alt="" loading="lazy">
+            <img src="/assets/img/home/finish-docker-build.png" alt="" loading="lazy">
         </td>
     </tr>
 </table>
 
 ##### 4.查看Docker镜像
 
-<img src="assets/img/home/desc-docker-image.png" alt="" loading="lazy">
+<img src="/assets/img/home/desc-docker-image.png" alt="" loading="lazy">
 
 #### 使用Maven插件构建
 
@@ -528,15 +528,15 @@ echo $DOCKER_HOST
 
 ```
 
-<img src="assets/img/home/set-docker-host.png" alt="" loading="lazy">
+<img src="/assets/img/home/set-docker-host.png" alt="" loading="lazy">
 
 ##### 2.修改Maven配置
 
-<img src="assets/img/home/modify-docker-plugin-config.png" alt="" loading="lazy">
+<img src="/assets/img/home/modify-docker-plugin-config.png" alt="" loading="lazy">
 
 ##### 3.执行Docker构建
 
-<img src="assets/img/home/run-docker-plugin-build.png" alt="" loading="lazy">
+<img src="/assets/img/home/run-docker-plugin-build.png" alt="" loading="lazy">
 
 ### 如何部署
 
@@ -555,9 +555,9 @@ cd /opt/youlan-boot
 
 #### 上传文件
 
-* **文件位置：** [docker/docker-compose.yml](https://gitee.com/dgxdks/youlan-boot/tree/master/docker)
+* **文件位置：** [docker/docker-compose.yml](https://gitee.com/kensenzhao/youlan-boot/tree/master/docker)
 
-<img src="assets/img/home/docker-deploy-java-file.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-java-file.png" loading="lazy">
 
 * **上传文件：**
 
@@ -583,7 +583,7 @@ docker-compose up -d youlan-admin
 
 ```
 
-<img src="assets/img/home/docker-deploy-java.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-java.png" loading="lazy">
 
 
 **通过Docker命令部署**
@@ -602,4 +602,4 @@ docker run -it -d --name youlan-admin -p 4085:4085 -v /opt/youlan-boot/youlan-ad
 
 ```
 
-<img src="assets/img/home/docker-deploy-java-cmd.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-java-cmd.png" loading="lazy">

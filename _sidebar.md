@@ -1,5 +1,6 @@
 * 项目概况
     * [快速了解](README.md "快速了解")
+    * [系统演示](docs/home/system-demo.md "系统演示")
     * [更新日志](docs/home/project-changelog.md "更新日志")
 
 * 快速开始

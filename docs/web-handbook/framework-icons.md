@@ -63,10 +63,10 @@ export default icons
 <table>
     <tr>
         <td>
-            <img src="assets/img/web-handbook/icon-search.png">        
+            <img src="/assets/img/web-handbook/icon-search.png">        
         </td>
         <td>
-            <img src="assets/img/web-handbook/icon-show.png">        
+            <img src="/assets/img/web-handbook/icon-show.png">        
         </td>
     </tr>
 </table>
@@ -75,10 +75,10 @@ export default icons
 <table>
     <tr>
         <td>
-            <img src="assets/img/web-handbook/icon-download.png">        
+            <img src="/assets/img/web-handbook/icon-download.png">        
         </td>
         <td>
-            <img src="assets/img/web-handbook/icon-add.png">        
+            <img src="/assets/img/web-handbook/icon-add.png">        
         </td>
     </tr>
 </table>

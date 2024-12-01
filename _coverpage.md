@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-<img src="assets/img/logo-cute.jpg" width="260px" height="260px">
+<img src="/assets/img/logo-cute.jpg" width="260px" height="260px">
 
 <div style="font-weight: bold; font-size: 40px;">
 youlan-boot
@@ -10,8 +10,8 @@ youlan-boot
     <a href="https://github.com/dgxdks/youlan-boot">
       <img src="https://img.shields.io/github/stars/dgxdks/youlan-boot.svg?style=social&label=Stars" alt="">
     </a>    
-    <a href="https://gitee.com/dgxdks/youlan-boot">
-      <img src="https://gitee.com/dgxdks/youlan-boot/badge/star.svg?theme=blue" alt="">
+    <a href="https://gitee.com/kensenzhao/youlan-boot">
+      <img src="https://gitee.com/kensenzhao/youlan-boot/badge/star.svg?theme=blue" alt="">
     </a>
     <a>
         <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="">
@@ -19,7 +19,7 @@ youlan-boot
     <a>
         <img src="https://img.shields.io/badge/Spring_Boot-2.7-blue.svg" alt="">
     </a>
-    <a href="https://gitee.com/dgxdks/youlan-boot">
+    <a href="https://gitee.com/kensenzhao/youlan-boot">
         <img src="https://img.shields.io/badge/JDK-8-green.svg" alt="">
     </a>
     <a>

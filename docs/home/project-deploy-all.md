@@ -25,9 +25,9 @@ cd /opt/youlan-boot
 
 #### 上传文件
 
-* **文件位置：** [docker/docker-compose.yml](https://gitee.com/dgxdks/youlan-boot/tree/master/docker)
+* **文件位置：** [docker/docker-compose.yml](https://gitee.com/kensenzhao/youlan-boot/tree/master/docker)
 
-<img src="assets/img/home/docker-deploy-java-file.png" loading="lazy">
+<img src="/assets/img/home/docker-deploy-java-file.png" loading="lazy">
 
 * **上传文件：**
 

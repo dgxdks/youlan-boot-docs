@@ -119,25 +119,25 @@ create table sys_goods
 
 > 1、登录系统依次点击菜单（系统工具 -> 代码生成) 
 
-<img src="assets/img/java-handbook/function-generator-menu.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-menu.png" alt="">
 
 > 2、点击代码生成页面导入按钮,选择导入记录,勾选完成后点击确定按钮
 
-<img src="assets/img/java-handbook/function-generator-button.png" alt="">
-<img src="assets/img/java-handbook/function-generator-button-choose.png" alt="">
-<img src="assets/img/java-handbook/function-generator-finish.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-button.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-button-choose.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-finish.png" alt="">
 
 > 3、点击编辑按钮,修改代码生成信息,修改完成后点击提交按钮
 
-<img src="assets/img/java-handbook/function-generator-edit-button.png" alt="">
-<img src="assets/img/java-handbook/function-generator-basic-info.png" alt="">
-<img src="assets/img/java-handbook/function-generator-fields-info.png" alt="">
-<img src="assets/img/java-handbook/function-generator-info.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-edit-button.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-basic-info.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-fields-info.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-info.png" alt="">
 
 > 4、点击预览按钮,确认代码生成信息
 
-<img src="assets/img/java-handbook/function-generator-preview.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-preview.png" alt="">
 
 > 5、点击生成按钮,生成代码
 
-<img src="assets/img/java-handbook/function-generator-download.png" alt="">
+<img src="/assets/img/java-handbook/function-generator-download.png" alt="">
