@@ -6,23 +6,23 @@
 youlan-boot
 <span style="font-weight: normal; font-size: 14px;">v1.1.0</span>
 </div>
-<p align="center">
-    <a href="https://github.com/dgxdks/youlan-boot">
+<p align="center" >
+    <a href="https://github.com/dgxdks/youlan-boot" style="text-decoration: none">
       <img src="https://img.shields.io/github/stars/dgxdks/youlan-boot.svg?style=social&label=Stars" alt="">
     </a>    
-    <a href="https://gitee.com/kensenzhao/youlan-boot">
+    <a href="https://gitee.com/kensenzhao/youlan-boot" style="text-decoration: none">
       <img src="https://gitee.com/kensenzhao/youlan-boot/badge/star.svg?theme=blue" alt="">
     </a>
-    <a>
+    <a style="text-decoration: none">
         <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="">
     </a>
-    <a>
+    <a style="text-decoration: none">
         <img src="https://img.shields.io/badge/Spring_Boot-2.7-blue.svg" alt="">
     </a>
-    <a href="https://gitee.com/kensenzhao/youlan-boot">
+    <a href="https://gitee.com/kensenzhao/youlan-boot" style="text-decoration: none">
         <img src="https://img.shields.io/badge/JDK-8-green.svg" alt="">
     </a>
-    <a>
+    <a style="text-decoration: none">
         <img src="https://img.shields.io/badge/OpenJDK-11-green.svg" alt="">
     </a>
 </p>
