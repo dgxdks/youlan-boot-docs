@@ -30,7 +30,7 @@
 
 <p align="center">
     <a href="https://youlan-boot-doc.kensenzhao.com">项目文档 | </a>
-    <a href="https://youlan-boot-doc.kensenzhao.com">系统演示 | </a>
+    <a href="https://youlan-boot-doc.kensenzhao.com/#/docs/home/system-demo">系统演示 | </a>
     <a href="https://gitee.com/kensenzhao/youlan-boot">Gitee地址 | </a>
     <a href="https://github.com/kensenzhao/youlan-boot">GitHub地址</a>
 </p>
